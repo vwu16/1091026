@@ -1,0 +1,143 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    <title></title>
+	<meta charset="utf-8" />
+    <style>
+#logo1
+ {
+    animation-name : normal-logo-animation ;
+ }
+#logo2
+ {
+    animation-name : normal-logo-animation ;
+    animation-duration :10s ;
+ }
+#logo3
+ {
+    animation-name : percent-logo-animation ;
+    animation-duration :10s ;
+ }
+ #logo4
+ {
+    animation-name : normal-logo-animation ;
+    animation-duration :10s ;
+    animation-timing-function : ease-in-out ;
+ }
+#logo5
+ {
+    animation-name : normal-logo-animation ;
+    animation-duration :10s ;
+    animation-timing-function : ease-in-out ;
+    animation-iteration-count : 2 ;
+ }
+#logo6
+ {
+    animation-name : normal-logo-animation ;
+    animation-duration :10s ;
+    animation-timing-function : ease-in-out ;
+    animation-iteration-count : infinite ;
+ }
+ #logo7
+ {
+    animation-name : normal-logo-animation ;
+    animation-duration :10s ;
+    animation-timing-function : ease-in-out ;
+    animation-iteration-count : 2 ;
+    animation-direction :normal ;
+ }
+#logo8
+ {
+    animation-name : normal-logo-animation ;
+    animation-duration :10s ;
+    animation-timing-function : ease-in-out ;
+    animation-iteration-count : 2 ;
+    animation-direction : reverse ;
+ }
+#logo9
+ {
+    animation-name : normal-logo-animation ;
+    animation-duration :10s ;
+    animation-timing-function : ease-in-out ;
+    animation-iteration-count : 2 ;
+    animation-direction : alternate ;
+ }
+ #logo10
+ {
+    animation-name : normal-logo-animation ;
+    animation-duration :10s ;
+    animation-timing-function : ease-in-out ;
+    animation-iteration-count : 2 ;
+    animation-direction : alternate-reverse ;
+ }
+#logo11
+ {
+    animation-name : normal-logo-animation ;
+    animation-duration :10s ;
+    animation-timing-function : ease-in-out ;
+    animation-iteration-count : 2 ;
+    animation-direction : normal ;
+    animation-delay : 2s ;
+ }
+#logo12
+ {
+    animation-name : normal-logo-animation ;
+    animation-duration :10s ;
+    animation-timing-function : ease-in-out ;
+    animation-iteration-count : 2 ;
+    animation-direction : normal ;
+    animation-delay : 2s ;
+ }
+ #logo12:hover
+ {
+    animation-play-state : paused ;
+ }
+ #logo13
+ {
+    animation-name : normal-logo-animation ;
+    animation-duration :10s ;
+    animation-timing-function : ease-in-out ;
+    animation-iteration-count : 2 ;
+    animation-direction : normal ;
+    animation-delay : 2s ;
+    animation-play-state : paused ;
+ }
+ #logo13:hover
+ {
+    animation-play-state : running ;
+ }
+
+
+
+        @keyframes normal-logo-animation
+      {
+           from{ transform :rotate(0deg) ; }
+           to{ transform :rotate(360deg) ; }
+      }
+
+        @keyframes percent-logo-animation
+      {
+           0%{ transform :rotate(0deg) ; }
+           50%{ transform :rotate(360deg) ;}
+           100%{ transform :rotate(0deg) ; }
+      }
+
+    </style>
+</head>
+<body>
+    <img id="logo1" src="dtc-logo.png" />
+    <img id="logo2" src="dtc-logo.png" />
+    <img id="logo3" src="dtc-logo.png" />
+    <img id="logo4" src="dtc-logo.png" />
+    <img id="logo5" src="dtc-logo.png" />
+    <img id="logo6" src="dtc-logo.png" />
+    <img id="logo7" src="dtc-logo.png" />
+    <img id="logo8" src="dtc-logo.png" />
+    <img id="logo9" src="dtc-logo.png" />
+    <img id="logo10" src="dtc-logo.png" />
+    <img id="logo11" src="dtc-logo.png" />
+    <img id="logo12" src="dtc-logo.png" />
+    <img id="logo13" src="dtc-logo.png" />
+</body>
+</html>
